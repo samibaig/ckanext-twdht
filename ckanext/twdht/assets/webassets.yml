@@ -1,0 +1,14 @@
+# twdht-js:
+#   filter: rjsmin
+#   output: ckanext-twdht/%(version)s-twdht.js
+#   contents:
+#     - js/twdht.js
+#   extra:
+#     preload:
+#       - base/main
+
+# twdht-css:
+#   filter: cssrewrite
+#   output: ckanext-twdht/%(version)s-twdht.css
+#   contents:
+#     - css/twdht.css
